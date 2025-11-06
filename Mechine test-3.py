@@ -7,4 +7,7 @@ u_num = int(input("Enter User ID: "))
 
 for x in student:
     if x["id"] == u_num:
-        print("Student Name is:", x['name'])
+        print("Student Name is: ", x["name"])
+        break
+else:
+    print("Student not found")
