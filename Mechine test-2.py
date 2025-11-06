@@ -1,3 +1,4 @@
+#multiplication table for user
 num = int(input("Enter a Number: "))
 
 for i in range(11):
